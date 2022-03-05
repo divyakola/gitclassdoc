@@ -1,0 +1,91 @@
+what is Version Control System?
+--------------------------------
+Version control system helps developers track and manage changes to a software project’s code.
+
+In software engineering, version control system is also known as revision control/source control/source code management.
+
+the popular Version Control System tools are
+	Git
+	CVS
+	SVN
+	Mercurial
+	Bazaar
+	TFS
+	Perforce 
+	ClearCase
+
+
+what is Git?
+------------
+Git is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+what is distributed version control system?
+-------------------------------------------
+it means that the entire codebase and history is available on every developer’s computer, which allows for easy branching and merging.
+
+what is GitHub?
+---------------
+GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code. 
+
+
+if we want to working with git,first we need to download and install Git in our local computer.
+
+how to download Git?
+--------------------
+	goto https://git-scm.com/
+		|
+	goto downloads
+		|
+	select our operating system
+		|
+	to download standalone Git software of that particular
+	bit operating system
+		
+how to install Git?
+-------------------
+	double click on Git downloaded file
+		|
+	to click on yes
+		|
+	click on next
+		|
+	to select installation location and click on next
+		|
+	to enable desktop shortcut icon and click on next
+		|
+	to select start menu folder name and click on next
+		|
+	to click on next
+		|
+	to click on next
+		|
+	to select first option and click on next
+		|
+	to click on next
+		|
+	to click on next
+		|
+	to click on next
+		|
+	to click on next
+		|
+	to click on next
+		|
+	to click on install
+		|
+	to click on finish
+
+if we want to working with GitHub,first we need to create GitHub account.
+
+	goto https://github.com/
+		|
+	to create an account
+
+
+
+
+	
+	
+	
