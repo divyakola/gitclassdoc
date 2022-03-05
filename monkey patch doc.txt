@@ -1,0 +1,45 @@
+What is Monkey patching?
+------------------------
+In Python, the term monkey patch only refers to dynamic modifications of a class or module at runtime, which means monkey patch is a piece of Python code that extends or modifies other code at runtime.
+
+Monkey patching can only be done in dynamic languages, of which python is a good example.
+
+ex1: class level
+----
+class Class():
+    def add(self, x, y):
+        return x + y
+def not_exactly_add(self, x, y):
+    return x * y
+inst = Class()
+print(inst.add(3, 3))
+Class.add = not_exactly_add
+print(inst.add(3, 3))
+
+output
+------
+6
+9
+
+ex2: module level
+----
+	sample.py
+	---------
+def addition(x,y):
+    return x+y
+
+	demo.py
+	-------
+import sample
+def add(x,y):
+    return x*y
+print(add(4,5))
+print(sample.addition(4,5))
+sample.addition=add
+print(sample.addition(4,5))
+
+output:
+-----
+20
+9
+20
